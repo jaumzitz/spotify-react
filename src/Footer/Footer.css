@@ -1,0 +1,34 @@
+.footer-premium {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #c4a, #529af4);
+    width: 100%;
+    height: 80px;
+}
+
+.footer-premium__content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 30px;
+}
+
+.footer-premium .footer-premium__button {
+    margin: 10px 20px;
+    border-radius: 60px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px 30px;
+}
+
+.footer-premium  .footer-premium__content .text{
+    padding-top: 8px;
+    color: #fff;
+}
+
+.footer-premium .footer-premium__content .title {
+    font-weight: bold;
+}
